@@ -1,0 +1,36 @@
+.box-dropdown{
+    .dropdown{
+        position: relative;
+        width: 200px;
+        height: 56px;
+        background-color: #fff;
+        box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.0532439);
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 48px;
+        cursor: pointer;
+    }
+    .dropdown-menu{
+        margin-top: 8px;
+        position: absolute;
+        height: 164px;
+        display: none;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 200px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.0532439);
+        border-radius: 5px;
+        li{
+            list-style: none;
+            margin-left: 24px;
+            cursor: pointer;
+        }
+    }
+    .show{
+        display: flex;
+        transition: 0.5s;
+    }
+}

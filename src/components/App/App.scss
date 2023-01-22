@@ -1,0 +1,119 @@
+
+.dislike{
+    width: 100%;
+    height:100%;
+    background: #F2F2F2;
+    transition: 0.7s;
+    .header{
+        background-color: #FFFFFF;
+       .header-box{
+        .title{
+            color: #111517;
+            transition: 0.7s;
+        }
+        .dark-mode{
+            color: #111517;
+            transition: 0.7s;
+        }
+       }
+    }
+    .box-card{
+        .country-card{
+            .country-data{
+                h3{
+                    font-weight: 800;
+                    font-size: 18px;
+                    line-height: 26px;
+                    color: #111517;
+                }
+                .info{
+                    h6{
+                        color: #111517;
+                        span{
+                            color: #111517;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .search-bar{
+        width: 1300px;
+        height: auto;
+        margin: 0 auto;
+    }
+}
+.dislikelike{
+    width: 100%;
+    height: 100%;
+    background-color: #202C36;
+    .box-card{
+        .country-card{
+            background-color:#2B3844;
+            .country-data{
+                h3{
+                    font-weight: 800;
+                    font-size: 18px;
+                    line-height: 26px;
+                    color: #FFFFFF;
+                }
+                .info{
+                    h6{
+                        color: #fff;
+                        span{
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .search-bar{
+        width: 1300px;
+        height: auto;
+        margin: 0 auto;
+        .search-box{
+            background: #2B3844;
+            box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.0532439);
+            border-radius: 5px;
+            input{
+                background: #2B3844;
+                color: #ffff;
+            }
+        }
+        .box-dropdown{
+            .dropdown{
+                background: #2B3844;
+                color: #ffff;
+            }
+            .show{
+                background: #2B3844;
+                color: #ffff;
+            }
+        }
+    }
+}
+.search-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #111517;
+}
+.show{
+    display: flex;
+}
+.load{
+    width: 100vh;
+    display: flex;
+    height: 70vh;
+    align-items: center;
+    margin:  0 auto;
+    justify-content: center;
+    img{
+        width: 300px;
+        height: 300px;
+    }
+}
